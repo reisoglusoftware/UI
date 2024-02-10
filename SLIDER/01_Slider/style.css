@@ -42,6 +42,8 @@ body {
   border-radius: 1;
   width: 100%;
   height: 100%;
+  opacity: 0;
+  animation: animate 1s ease-in-out 1 forwards;
 }
 
 .slide .item:nth-child(3) {
