@@ -14,16 +14,27 @@
         <div class="content">
           <h2>Ertugrul</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus,
-            eligendi reprehenderit. Id est doloribus consequuntur reiciendis
-            accusantium recusandae ut porro harum tempore cumque. Accusamus,
-            aliquam? Blanditiis quisquam eius earum corrupti fugit labore
-            suscipit quam nobis quas numquam fugiat voluptate illum
-            reprehenderit tempore eos quo quaerat explicabo odit unde, nesciunt
-            veniam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            ipsa sunt ut. Eius recusandae ullam suscipit asperiores labore est
+            aliquam minus itaque, aspernatur iste, eligendi sint odit hic sed
+            enim!
           </p>
         </div>
       </div>
     </div>
+
+    <svg>
+      <filter id="wavy">
+        <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="2">
+          <animate
+            attributeName="baseFrequency"
+            dur="60s"
+            values="0.02;0.05;0.02"
+            repeatCount="indefinite"
+          />
+        </feTurbulence>
+        <feDisplacementMap in="SourceGraphic" scale="30"></feDisplacementMap>
+      </filter>
+    </svg>
   </body>
 </html>
